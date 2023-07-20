@@ -16,6 +16,13 @@ int main()
     scanf("%d", &b);
     
     printf("sum is: %d", (a+b));
+
+    int mid, start, end;
+    start=2;
+    end=3;
+    mid = (start + end) / 2;
+    printf("\nmid: %d", mid);
+
     
     return 0;
 }
