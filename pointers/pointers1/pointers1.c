@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i=9;
+    /*int i=9;
     printf("%x\n", &i); //gives the address of i as output
     int *p=&i;
     printf("%d\n", *p);
@@ -18,8 +18,17 @@ int main()
     char l='k';
     char *m=&l;
     
-    printf("\n%s", m);
+    printf("\n%s", m);*/
 
 
+    /*int arr1[10]={1,2,3,4,5,6,7,8,9,10};
+    printf("%x\n", arr1);
+    printf("%x\n", &arr1);
+    printf("%x\n", *arr1);
+    printf("%x\n", *(&arr1));
+
+    int i,j=0;
+    printf("%d\n", i);
+    printf("%d", j);*/
     return 0;
 }
